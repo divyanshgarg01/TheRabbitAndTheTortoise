@@ -1,4 +1,9 @@
 package thread.tortoise;
 
-public class Tortoise {
+import javax.swing.*;
+
+public class Tortoise extends Thread{
+
+    private static final int MILESTONES = 5;
+
 }
